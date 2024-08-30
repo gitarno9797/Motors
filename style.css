@@ -1,0 +1,389 @@
+/* General Reset */
+body, h2, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.logo {
+    color: rgba(255, 0, 0, 0.11);
+    font-size: 24px;
+    font-weight: bold;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+}
+.black-stripe{
+    background-color: black;
+}
+
+
+.red-stripe {
+    height: 5px;
+    background-color: red;
+}
+.navbar {
+    background-color: #e00000;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Motorcycle Listing */
+.motorcycle-listing {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.motorcycle-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.details {
+    background-color: #e00000;
+    padding: 10px;
+    margin-top: -5px;
+}
+
+.details h2, .details p {
+    margin: 5px;
+}
+
+/* Inventory */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #df1313e0;
+    color: #fff;
+}
+
+
+.prostart {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.prohead {
+    padding-bottom: 30px;
+
+}
+
+
+.prall {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 20px;
+    margin-bottom: 30px;
+
+}
+
+.firstobject img {
+    width: 100%;
+    height: 300px;
+}
+
+.firstobject {
+    background-color: rgb(48, 45, 45);
+    padding-bottom: 15px;
+    
+    
+}
+
+.bog {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+       
+
+    
+}
+
+.anotherobject img {
+    width: 100%;
+    height: 300px;
+}
+
+.anotherobject {
+    background-color: rgb(48, 45, 45);
+    
+
+
+}
+
+.bog {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+.thirdobject img {
+    width: 10%;
+    height: 300px;
+}
+
+.thirdobject{
+    background-color: rgb(48, 45, 45);
+
+
+
+    
+}
+
+.bog {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 50px;
+
+}
+
+.icens{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+}
+
+
+/*ingrit*/
+.ingrit{
+    background-color: rgba(143, 10, 10, 0.781);
+    padding: 10px;
+      
+}
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+p {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+button {
+    background-color: #2de215d5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff4500;
+}
+
+/*welcoming the history*/
+.Appoinment{
+    background-color: black;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background-image.jpg'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.service-item {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1); /* Transparent background */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    width: 45%;
+}
+
+.icon {
+    font-size: 36px;
+    color: white;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.text h3 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.text p {
+    margin: 0;
+    font-size: 14px;
+}
+
+
+
+
+
+/*motosport*/
+.motosport{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: red;
+    color: white;
+}
+.dang .container{
+    display: flex;
+    height: 100vh;  
+}
+
+.text-section {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+
+.image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-section img {
+    max-width: 100%;
+    filter: grayscale(100%);
+}
+
+/*sign up*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #111111;
+    padding: 40px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin: 20px;
+}
+
+.footer-section h2 {
+    color: #FF3C00; /* Red color similar to the screenshot */
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.footer-section p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.photo-gallery img {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    color: #FF3C00;
+}
+
+.subscribe form {
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe form input[type="text"],
+.subscribe form input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #333333;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.subscribe form button {
+    padding: 10px;
+    background-color: #FF3C00;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.subscribe form button:hover {
+    background-color: #e63600;
+}
+.goo{
+    padding-left: 50px;
+}
